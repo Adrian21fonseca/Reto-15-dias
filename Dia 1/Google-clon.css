@@ -1,0 +1,115 @@
+body{
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: end;
+}
+
+.navegador ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: 14px;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.navegador a:hover{
+    text-decoration: underline;
+}
+
+.google-app:hover, .usuario:hover{
+    cursor: pointer;
+}
+
+
+.logo_{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.logo{
+    width: 450px;
+}
+
+.buscador{
+    margin: 20px auto 0;
+    box-shadow: 1px 1px 4px rgb(145, 145, 145);
+}
+
+.buscador:hover{
+    box-shadow: 0 0 5px rgb(210, 210, 210);
+}
+
+.botones-alternos{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 45px;
+}
+
+.boton{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    background-color: rgb(255, 253, 249);
+}
+
+.boton:hover{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 8px;
+    box-shadow: 1px 1px 4px rgb(229, 229, 229);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ===== Barra de búsqueda estilo Google (sin librerías) ===== */
+.buscador {
+    display: flex;               /* Elementos en una fila */
+    align-items: center;         /* Centrado vertical */
+    gap: 0.6rem;                 /* Aire entre iconos y campo */
+    width: 100%;
+    max-width: 560px;
+    padding: 0 1rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background: #fff;
+    transition: box-shadow 0.2s;
+}
+
+.buscador:focus-within {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28); /* Sombrita al enfocar */
+    border-color: transparent;
+}
+
+.icono {
+    width: 20px;      /* Si tus PNG/SVG son más grandes, ajusta aquí */
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.icono:hover {
+    opacity: 1;       /* Efecto “encendido” al pasar el mouse */
+}
+
+.iconos-derecha {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.buscador input {
+    flex: 1;          /* Se expande para ocupar todo el espacio restante */
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.6rem 0;
+}
