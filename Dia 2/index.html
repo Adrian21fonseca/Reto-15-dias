@@ -7,38 +7,106 @@
     <title> Reto 15 dias-Dia 2</title>
 </head>
 <body>
-    
+
+    <header class="dia-de-estudio">
         <h1>
-            Titulo principal de la pagina
+            Día 2: HTML Intermedio — Formularios, Tablas y Semántica
         </h1>
+    </header>
 
-    <section class="parrafo">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam eligendi, voluptates tenetur corrupti, culpa velit obcaecati quasi dolores, eveniet deserunt a cumque magni doloremque ipsum eaque consequatur possimus. Explicabo.
-        </p>
-    </section>
+    <main>
 
-    <section class="imagen">
-        <img src="https://th.bing.com/th/id/R.180b58b0fea9bb6d6eab1d350d976e49?rik=gAGzQ%2bI%2b8%2b2ifQ&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2018%2f05%2fdee0da0459a0e916a95ded4f92a84ee6.jpg&ehk=1XeH7QXV9W1Ltg7IToUNMlaTVpM%2bEqp8FDhc2NXSl5Y%3d&risl=&pid=ImgRaw&r=0" alt="imagen de ejemplo">
-    </section>
+        <section class="primera-parte">
 
-    <section class="link-de-perfil">
-        <a target="_blank" href="https://www.linkedin.com/in/adrian-fonseca-6a4007263/">Mi perfil de LinkedIn</a>
-    </section>
+            <h2 class="sub-titulos">
+                Ejercicio basico de un formulario
+            </h2>
 
-    <section class="lista">
-        <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-        </ul>
-    </section>
 
-    <footer>
-        <p>Reto del dia 2</p>
-        <p>Creado por Adrian Fonseca</p>
-        <p>2025</p>
-    </footer>
+            <form action="#">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Contraseña">Contraseña:</label>
+                <input type="password" id="Contraseña" name="Contraseña" required>
+
+                <label for="Confi-contra">Confirmar Contraseña:</label>
+                <input type="password" id="Confi-contra" name="Confi-contra" required>
+
+                <button type="submit">Registrarse</button>
+
+            </form>
+
+        </section>
+
+        <section class="segunda-parte">
+
+            <h2 class="sub-titulos">
+                Ejercicio basico de una tabla
+            </h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <td>Producto</td>
+                        <td>Precio</td>
+                        <td>Disponibilidad</td>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Producto 1</td>
+                            <td>$10.00</td>
+                            <td>En stock</td>
+                        </tr>
+                        <tr class="agotado">
+                            <td>Producto 2</td>
+                            <td>$20.00</td>
+                            <td>Agotado</td>
+                        </tr>
+                        <tr>
+                            <td>Producto 3</td>
+                            <td>$15.00</td>
+                            <td>En stock</td>
+                        </tr>
+                    </tbody>
+                </thead>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            <strong>Lista de productos</strong>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+
+        <section class="tercera-parte">
+
+            <h2 class="sub-titulos">
+                Ejercicio basico de semantica
+            </h2>
+
+            <article class="nota">
+                <header>
+                    <h3>Mis pensamientos durante el reto</h3>
+                </header>
+                <p>Es el dia 2, es poco... Estoy viendo cosas que ya tenia un conocimiento previo pero eso no quita que me este dando cuenta de algunos errores que tenia. Sin importar nada estan siendo días muy buenos para mi y para el reto. <strong>FOCUS</strong></p>
+            </article>
+
+            <footer>
+                <p>Escrito por: Adrian Fonseca (AM21)</p>
+            </footer>
+
+        </section>
+
+    </main>
 
 </body>
 </html>

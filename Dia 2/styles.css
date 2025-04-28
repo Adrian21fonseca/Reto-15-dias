@@ -3,51 +3,99 @@ body{
     padding: 0;
 }
 
-h1{
+/* ------ Estilos del header --------- */
+
+.dia-de-estudio{
+    text-align: center;
+    font-size: 15px;
+    margin: 50px auto;
+}
+
+/* ------ Estilos del formulario --------- */
+
+.sub-titulos{
+    color: #000;
+    font-size: 27px;
+    margin: 30px auto;
     text-align: center;
 }
 
-.parrafo{
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    padding: 17px;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px rgb(114, 114, 114);
+    border-radius: 10px;
+}
+
+label{
+    padding: 5px;
+}
+
+button{
+    margin: 15px auto 0;
+    width: 40%;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(114, 114, 114);
+}
+
+/* ------ Estilos de la tabla  --------- */
+
+table{
+    margin: 0 auto;
+    width: 70%;
     text-align: center;
-    margin: 0 20px;
 }
 
-.imagen{
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    width: 400px;
-    height: 300px;
+thead{
+    background: #d7d7d7;
+    font-weight: 600;
+    font-size: 18px;
 }
 
-.link-de-perfil{
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
+td{
+    padding: 5px;
 }
 
-.link-de-perfil a{
-    text-decoration: none;
-    color: rgb(27, 78, 167);
-    font-size: 20px;
-    font-weight: 800;
+tbody .agotado{
+    background: #eab1b1;
 }
 
-.link-de-perfil a:hover{
-    text-decoration: underline;
+tfoot{
+    background: #d7d7d7;
 }
 
-ul{
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
+
+/* ------ Estilos de "Mis pensamientos" --------- */
+
+.tercera-parte{
+    margin-top: 100px;
 }
+
+h3{
+    margin: 30px 0 20px 15px;
+}
+
+.nota{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background: #f5adff7c;
+    border-radius: 10px;
+}
+
+/* ------ Estilos del footer --------- */
 
 footer{
-    background-color: rgb(216, 242, 255);
-    padding: 10px;
+    margin-top: 20px;
+    padding: 15px;
     text-align: center;
-    font-weight: 700;
+    background: #eeeeee;
 }
