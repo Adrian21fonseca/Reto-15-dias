@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    background: rgb(165, 181, 229);
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.contenedor{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resumen-del-reto{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.esto-es{
+    font-weight: bold;
+}
+
+.dias-del-reto{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.dias{
+    padding: 60px;
+    background: rgb(165, 181, 229);
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+.dias a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background: rgb(165, 181, 229);
+    margin-top: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
