@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 3</title>
+</head>
+<body>
+    <script>
+
+        function numeroParOImpar(){
+            let numero = prompt("Ingresa un numero para saber si es par o impar:");
+            numero = parseInt(numero);
+
+            if(numero % 2 === 0){
+                alert("El numero " + numero + " es par.");
+            } else{
+                alert("El numero " + numero + " es impar.");
+            }
+        }
+
+        numeroParOImpar();
+
+
+
+
+        function verificarEdad(){
+            let edad = prompt("¿Cuál es tu edad?");
+            edad = parseInt(edad);
+
+            if(edad >= 18){
+                alert("Eres mayor de edad");
+            } else{
+                alert("Eres menor de edad");
+            }
+        }
+
+        verificarEdad();
+    </script>
+</body>
+</html>
